@@ -1,0 +1,12 @@
+.table.person-details td, .table.person-details th{
+    white-space: break-spaces;
+}
+.table.person-details td, .table.person-details th {
+    padding: .75rem;
+}
+@media(max-width:1024px){
+    .table.person-details td, .table.person-details th{
+        display: grid;
+        padding:0.1rem;
+    }
+}

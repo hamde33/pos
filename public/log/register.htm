@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.homoola.com/account/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homoola Solutions for Transportations | إنشاء حساب</title>
+
+    <link href="bootstrap.min_4.css" rel="stylesheet" />
+    <link href="font-awesome.min_3.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="css_3.css" async />
+    
+            <link href="register-page.min.css" rel="stylesheet" />
+            <link href="register-page.rtl.css" rel="stylesheet" />
+        
+    <style>
+        .form-info .btn.dropdown-toggle {
+            font-size: 1em;
+            border-radius: 5px !important;
+        }
+
+            .form-info .btn.dropdown-toggle .filter-option {
+                position: relative;
+            }
+
+        body {
+            background-color: rgb(98,106,136);
+        }
+
+        footer {
+            height: 51px;
+        }
+
+        .copyright, .copyright > a {
+            color: #616a87 !important;
+        }
+    </style>
+    <link href="site.custom.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-info navbar-transparent navbar-absolute">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        
+
+        <form id="selectLanguage" method="post" class="form-horizontal langs-list" role="form" action="https://www.homoola.com/Home/SetLanguage?returnUrl=%2Faccount%2Fregister">
+            <li class="nav-item">
+                <button style="text-transform: uppercase" onclick="document.getElementById('selectLanguage').submit()"  name="culture" id="culture" class="nav-link bold navitem" href="#" value="en">English</button>
+            </li>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AV84TXmYCFIpNZ0046APrRndTotZh7m_FWtIzgOfiAOubBCEmvfhTRK2Nezh5A2JjPD57syO6i3swgjNp1cMAL-v0mrp3fz-1TpOX0xqQfknVB7Z_Ws0spYVfA-S2cdSi6ETh17E9-KOxhjCky-Z6U" /></form>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper wrapper-full-page">
+        <div class="full-page login-page" filter-color="black">
+            <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
+            <div class="content">
+                
+
+
+<a _ngcontent-c0="" class="navbar-brand hl" href="https://www.homoola.com/#">
+    <img _ngcontent-c0="" class="Homoola_Logo img-responsive" alt="حموله" src="https://cdn.homoola.com/images/homoola_logo.svg" style="padding: 10px; height:100px">
+    <div class="ripple-container">
+        <div class="ripple ripple-on ripple-out" style="left: 20px; top: -34px; width: 100px; height: 100px; transform: scale(2.96584);">
+        </div>
+    </div>
+</a>
+
+<div class="container">
+    <div style="float: left;">
+        <div class="tabs">
+                <h4 id="loginTab">تسجيل الدخول</h4>
+            <h4 class="fade" id="regTab">إنشاء حساب</h4>
+        </div>
+        <div id="reg">
+            <div class="overlay" id="registrationOverlay">
+                <div class="loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="text-danger" id="error" style="padding-bottom: 15px;"></div>
+                <div id="registration">
+                    <form id="registrationForm" method="post" class="form-info rg" novalidate>
+                        <!-- Name -->
+                        <div style="display: flex;">
+                            <div class="form-group" style="width: 50%;">
+                                <label for="firstName">الاسم الأول</label>
+                                <input id="firstName" name="firstName" type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group" style="width: 50%;">
+                                <label for="lastName">اسم العائلة</label>
+                                <input id="lastName" name="lastName" type="text" class="form-control" required>
+                            </div>
+                        </div>
+                        <hr />
+                        <!-- Phone -->
+                        <div style="display: flex;">
+                            <div class="form-group ccode" style="margin:0;">
+                                <label for="mobilePhone"> {{__('trans.Driver')}}:</label>
+                                <div style="direction:ltr">
+                                    <select class="selectpicker" data-style="select-with-transition" id="rvm_SelectedCode" name="rvm.SelectedCode"><option value="SA">&#x2B;966 (KSA)</option>
+<option value="BH">&#x2B;973 (BHR)</option>
+<option value="AE">&#x2B;971 (UAE)</option>
+<option value="KW">&#x2B;965 (KWT)</option>
+<option value="OM">&#x2B;968 (OMN)</option>
+<option value="YE">&#x2B;967 (YEM)</option>
+<option value="JO">&#x2B;962 (JOR)</option>
+<option value="EG">&#x2B;20 (EGY)</option>
+<option value="SD">&#x2B;249 (SDN)</option>
+</select>
+                                </div>
+                            </div>
+                            <div class="form-group" style="width:100%; top:25px;margin:0">
+                                <input class="form-control" id="mobilePhone" name="mobilePhone" type="text" autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div style="padding: 0 3px;">
+                            <small class="text-danger" id="phoneInvalid" style="display:none">رقم الجوال غير صحيح </small>
+                            <small class="text-danger" id="phoneRegistered" style="display:none">هذا الرقم مسجل مسبقا في النظام.</small>
+                        </div>
+                        <hr />
+                        <!-- Verification code -->
+                        <div class="form-group">
+                            <label for="phoneVerificationCode">رمز التحقق :</label>
+                            <input id="phoneVerificationCode" name="phoneVerificationCode" type="number" class="form-control" min="1000" max="9999" required>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0)" id="sendVerificationCode" onclick="sendCode()" style="display:none;">
+                                <small class="text-info">إرسال الرمز</small>
+                            </a>
+                            <small id="codeWasSent" class="text-success" style="display:none">تم إرسال الرمز</small>
+                            <small id="codeSentError" class="text-danger" style="display:none">خطأ</small>
+                        </div>
+                        <hr />
+                        <!-- Passcode -->
+                        <div class="form-group">
+                            <label for="password">كلمه المرور</label>
+                            <input id="password" name="password" type="password" class="form-control" autocomplete="new-password" required>
+                        </div>
+                        <hr />
+                        <!-- UT -->
+                        <div class="form-group" style="width: 100%;">
+                            <label>إختر{{__('trans.truck34')}}:</label>
+                            <select class="selectpicker" data-style="select-with-transition" data-val="true" data-val-required="The SelectedRole field is required." id="userType" name="rvm.SelectedRole"><option value="3">&#x646;&#x627;&#x642;&#x644;</option>
+<option selected="selected" value="2">&#x634;&#x627;&#x62D;&#x646;</option>
+</select>
+                           <p style="padding: 8px;color: #333333ba;font-size: 12px;" id='shipper'>لديك شحنة/بضاعة وتريد نقلها؟</p>
+                           <p style="padding: 8px;color: #333333ba;font-size: 12px; display:none" id='carrier'>لديك شاحنة/شاحنات وتريد استخدامها في النقل؟</p>
+                        </div>  
+                        <div id="userAccountType">
+                            <hr />
+                            <div class="form-group">
+                                <label for="accountType">نوع الحساب</label>
+                                <select class="selectpicker" data-style="select-with-transition" id="shipperAccountType" name="rvm.SelectedCode"><option disabled="disabled" value="individual">&#x641;&#x631;&#x62F;</option>
+<option selected="selected" value="company">&#x627;&#x644;&#x634;&#x631;&#x643;&#x629;</option>
+</select>
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="tc">
+                                    بالتسجيل انت توافق علي <a target="_blank" href="https://www.homoola.com/home/terms">الشروط و الاحكام</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer text-center">
+                            <button type="submit" class="btn btn-info btn-simple btn-wd btn-lg">إنشاء حساب</button>
+                        </div>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AV84TXmYCFIpNZ0046APrRndTotZh7m_FWtIzgOfiAOubBCEmvfhTRK2Nezh5A2JjPD57syO6i3swgjNp1cMAL-v0mrp3fz-1TpOX0xqQfknVB7Z_Ws0spYVfA-S2cdSi6ETh17E9-KOxhjCky-Z6U" /></form>
+                </div>
+                <div class="complete-registration" id="completeRegistrationShipper">
+                    <form id="completeShipperRegistrationForm" method="post" class="form-info rg" novalidate>
+                        <div id="shipperIndividual" class="complete-registration-block" style="display: none;">
+                            <h5>
+                                <strong>الرجاء تقديم نسخة من هويتك لاستكمال التسجيل</strong>
+                            </h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="idNumber">{{__('trans.Table4')}}</label>
+                                        <input type="text" id="idNumber" name="idNumber" class="form-control" required autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group text-center">
+                                        <span class="btn btn-info btn-round btn-file">
+                                            صورة الملف الشخصي
+                                            <input id="profilePhoto" name="profilePhoto" type="file">
+                                        </span>
+                                        <img id="profilePhotoPreview" src="image_placeholder.jpg" alt='صورة الملف الشخصي' />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group text-center">
+                                        <span class="btn btn-info btn-round btn-file">
+                                            {{__('trans.truck5')}}
+                                            <input id="idImage" name="idImage" type="file" required>
+                                        </span>
+                                        <img id="idImagePreview" src="image_placeholder.jpg" alt='{{__('trans.truck5')}}' />
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div id="shipperCompany" class="complete-registration-block" style="display: none;">
+                            <h5>
+                                <strong>الرجاء تقديم معلومات شركتك لإكمال التسجيل</strong>
+                            </h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="companyRegistrationNumber">رقم السجل التجاري</label>
+                                        <input type="text" id="companyRegistrationNumber" name="companyRegistrationNumber" class="form-control" required autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="companyRegistrationExpirationDate">تاريخ انتهاء صلاحية السجل التجاري</label>
+                                        <input type="text" id="companyRegistrationExpirationDate" name="companyRegistrationExpirationDate" class="form-control datepicker" required autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="vatRegistrationNumber">الرقم الضريبي</label>
+                                        <input type="text" id="vatRegistrationNumber" name="vatRegistrationNumber" class="form-control" required autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group text-center">
+                                        <span class="btn btn-info btn-round btn-file">
+                                             {{__('trans.truck32')}}
+                                            <input id="registrationImage" name="registrationImage" type="file" required>
+                                        </span>
+                                        <img id="registrationImagePreview" src="image_placeholder.jpg" alt=' {{__('trans.truck32')}}' />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group text-center">
+                                        <span class="btn btn-info btn-round btn-file">
+                                             {{__('trans.truck33')}}
+                                            <input id="vatRegistrationImage" name="vatRegistrationImage" type="file" required>
+                                        </span>
+                                        <img id="vatRegistrationImagePreview" src="image_placeholder.jpg" alt=' {{__('trans.truck33')}}' />
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="footer text-center">
+                            <button type="submit" class="btn btn-info btn-simple btn-wd btn-lg">Complete Registration</button>
+                            <a href="register.htm#" class="skip-docs">سوف أُكمِل لاحقًا</a>
+                        </div>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AV84TXmYCFIpNZ0046APrRndTotZh7m_FWtIzgOfiAOubBCEmvfhTRK2Nezh5A2JjPD57syO6i3swgjNp1cMAL-v0mrp3fz-1TpOX0xqQfknVB7Z_Ws0spYVfA-S2cdSi6ETh17E9-KOxhjCky-Z6U" /></form>
+                </div>
+                <div class="complete-registration" id="completeRegistrationCarrier">
+                    <form id="completeCarrierRegistrationForm" method="post" class="form-info rg" novalidate>
+                        <h5>
+                            <strong>الرجاء تقديم معلومات شركتك لإكمال التسجيل</strong>
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="carrierCompanyRegistrationNumber">رقم السجل التجاري</label>
+                                    <input type="text" id="carrierCompanyRegistrationNumber" name="carrierCompanyRegistrationNumber" class="form-control" required autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="companyRegistrationExpirationDate">تاريخ انتهاء صلاحية السجل التجاري</label>
+                                    <input type="text" id="carrierCompanyRegistrationExpirationDate" name="carrierCompanyRegistrationExpirationDate" class="form-control datepicker" required autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="transportationLicenseNumber">رقم رخصة النقل</label>
+                                    <input type="text" id="transportationLicenseNumber" name="transportationLicenseNumber" class="form-control" required autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="transportationLicenseExpirationDate">تاريخ انتهاء صلاحية رخصة النقل</label>
+                                    <input type="text" id="transportationLicenseExpirationDate" name="transportationLicenseExpirationDate" class="form-control datepicker" required autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group text-center">
+                                    <span class="btn btn-info btn-round btn-file">
+                                         {{__('trans.truck32')}}
+                                        <input id="carrierRegistrationImage" name="carrierRegistrationImage" type="file" required>
+                                    </span>
+                                    <img id="carrierRegistrationImagePreview" src="image_placeholder.jpg" alt=' {{__('trans.truck32')}}' />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group text-center">
+                                    <span class="btn btn-info btn-round btn-file">
+                                        رخصة النقل
+                                        <input id="transportationLicenseImage" name="transportationLicenseImage" type="file" required>
+                                    </span>
+                                    <img id="transportationLicenseImagePreview" src="image_placeholder.jpg" alt='رخصة النقل' />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer text-center">
+                            <button type="submit" class="btn btn-info btn-simple btn-wd btn-lg">Complete Registration</button>
+                            <a href="register.htm#" class="skip-docs">سوف أُكمِل لاحقًا</a>
+                        </div>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AV84TXmYCFIpNZ0046APrRndTotZh7m_FWtIzgOfiAOubBCEmvfhTRK2Nezh5A2JjPD57syO6i3swgjNp1cMAL-v0mrp3fz-1TpOX0xqQfknVB7Z_Ws0spYVfA-S2cdSi6ETh17E9-KOxhjCky-Z6U" /></form>
+                </div>
+                <div id="registrationCompleted" class="text-center">
+                    <h3>تهانينا! تم إكمال التسجيل بنجاح.</h3>
+                </div>
+            </div>
+        </div>
+            <div id="lgn">
+                <form method="post" class="form-info" action="https://www.homoola.com/Account/Login">
+                    <div class="card-content">
+                        <div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                        <!-- Phone -->
+                        <div style="display: flex;">
+                            <div class="form-group ccode" style="margin:0;">
+                                <label for="lvm_UserName"> {{__('trans.Driver')}}:</label>
+                                <div style="direction:ltr">
+                                    <select class="selectpicker" data-style="select-with-transition" id="lvm_SelectedCode" name="lvm.SelectedCode"><option value="SA">&#x2B;966 (KSA)</option>
+<option value="BH">&#x2B;973 (BHR)</option>
+<option value="AE">&#x2B;971 (UAE)</option>
+<option value="KW">&#x2B;965 (KWT)</option>
+<option value="OM">&#x2B;968 (OMN)</option>
+<option value="YE">&#x2B;967 (YEM)</option>
+<option value="JO">&#x2B;962 (JOR)</option>
+<option value="EG">&#x2B;20 (EGY)</option>
+<option value="SD">&#x2B;249 (SDN)</option>
+</select>
+                                </div>
+                            </div>
+                            <div class="form-group" style="width:100%; top:25px;margin:0">
+                                <input class="form-control" required type="text" data-val="true" data-val-required="&#x631;&#x642;&#x645; &#x627;&#x644;&#x62C;&#x648;&#x627;&#x644; is required" id="lvm_UserName" name="lvm.UserName" value="">
+                            </div>
+                        </div>
+                        <!-- Passcode -->
+                        <div class="form-group">
+                            <label for="lvm_Password">كلمه المرور:</label>
+                            <input class="form-control" required type="password" data-val="true" data-val-required="&#x643;&#x644;&#x645;&#x647; &#x627;&#x644;&#x645;&#x631;&#x648;&#x631; is required" id="lvm_Password" name="lvm.Password">
+                        </div>
+                        <div class="input-group">
+                            <div class="checkbox form-horizontal-checkbox">
+                                <label>
+                                    <input type="checkbox" data-val="true" data-val-required="The Remember Me field is required." id="lvm_RememberMe" name="lvm.RememberMe" value="true">تذكرني في المرة القادمة
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="tc">
+                                بالتسجيل انت توافق علي   <a target="_blank" href="https://www.homoola.com/home/terms">الشروط و الاحكام</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer text-center">
+                        <button type="submit" class="btn btn-info btn-simple btn-wd btn-lg">تسجيل الدخول</button>
+
+                        <a href="https://www.homoola.com/Account/ResetPassword" class="btn btn-info btn-simple">نسيت كلمة المرور؟</a>
+                    </div>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AV84TXmYCFIpNZ0046APrRndTotZh7m_FWtIzgOfiAOubBCEmvfhTRK2Nezh5A2JjPD57syO6i3swgjNp1cMAL-v0mrp3fz-1TpOX0xqQfknVB7Z_Ws0spYVfA-S2cdSi6ETh17E9-KOxhjCky-Z6U" /><input name="lvm.RememberMe" type="hidden" value="false"></form>
+            </div>
+    </div>
+</div>
+<img class="ds" alt="" src="truck-image-2.png" style="position:absolute; top: 0; right: 0; z-index: -1;">
+<img class="SC" alt="حموله-ناقل" src="image-carriers-2.png" style="position: absolute;bottom: 0;left: 0; z-index: -1;">
+
+
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <p class="copyright pull-right">
+                        <span>حقوق الملكية الفكرية  &copy: 2021. جميع الحقوق محفوظة</span> <a href="http://homoola.com" target="_blank">homoola.com</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="moment-with-locales.min.js"></script>
+    <script src="bootstrap-datetimepicker.min.js"></script>
+    <script src="material.min.js" type="text/javascript"></script>
+    <script src="perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+    <!-- Forms Validations Plugin -->
+    <script src="jquery.validate.js"></script>
+    <script src="jquery.validate.unobtrusive.min.js"></script>
+    <!-- TagsInput Plugin -->
+    <script src="material-dashboard-angular.js"></script>
+    <script src="jquery.tagsinput.js"></script>
+    <script src="jquery.select-bootstrap.js"></script>
+    <script src="uploadImage.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            setTimeout(function () {
+                // after 1000 ms we add the class animated to the login/register card
+                $('.card').removeClass('card-hidden');
+            }, 500)
+        });
+    </script>
+    
+    <script>
+        var apiRoot = "https://api.homoola.com";
+        var countryCodes = JSON.parse('[{"englishName":"Saudi Arabia","alpha2":"SA","alpha3":"KSA","numericCode":682,"dialCodes":"+966","arabicName":"المملكة العربية السعودية"},{"englishName":"Bahrain","alpha2":"BH","alpha3":"BHR","numericCode":48,"dialCodes":"+973","arabicName":"البحرين"},{"englishName":"United Arab Emirates","alpha2":"AE","alpha3":"UAE","numericCode":784,"dialCodes":"+971","arabicName":"الامارات العربية المتحدة"},{"englishName":"Kuwait","alpha2":"KW","alpha3":"KWT","numericCode":414,"dialCodes":"+965","arabicName":"الكويت"},{"englishName":"Oman","alpha2":"OM","alpha3":"OMN","numericCode":512,"dialCodes":"+968","arabicName":"عمان"},{"englishName":"Yemen","alpha2":"YE","alpha3":"YEM","numericCode":887,"dialCodes":"+967","arabicName":"اليمن"},{"englishName":"Jordan","alpha2":"JO","alpha3":"JOR","numericCode":400,"dialCodes":"+962","arabicName":"الاردن"},{"englishName":"Egypt","alpha2":"EG","alpha3":"EGY","numericCode":818,"dialCodes":"+20","arabicName":"مصر"},{"englishName":"Sudan","alpha2":"SD","alpha3":"SDN","numericCode":729,"dialCodes":"+249","arabicName":"السودان"}]');
+        var user = JSON.parse('null');
+        var isCompleteRegistration = false;
+        var userType = '';
+        var isCompanyAccount = true;
+        var token = '';
+
+         $('#userType').on('change', function() {
+            if(this.value == 3){
+                document.getElementById('shipper').style.display = 'none';
+                document.getElementById('carrier').style.display = 'block';
+            } else if (this.value == 2) {
+                document.getElementById('shipper').style.display = 'block';
+                document.getElementById('carrier').style.display = 'none';
+            }
+        });  
+
+
+    </script>
+    <script src="registration.min.js"></script>
+
+</body>
+</html>

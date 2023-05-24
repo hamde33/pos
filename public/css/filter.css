@@ -1,0 +1,9 @@
+.filter label{
+    font-size:1rem;
+}
+#collapseExample.collapse .card{
+    border: 1px solid #2145ade6;
+    border-top: 0;
+    box-shadow: 1px 1px 6px 0px #9f9f9f;
+    
+}

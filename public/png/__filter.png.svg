@@ -1,0 +1,40 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <style>.st0{fill:#FFFFFF;}
+.st12{fill:#17B7A0;}
+.st474{opacity:0.6}</style>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="9.499918" width="9.499918" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_2" stroke="null">
+   <g class="st474" id="svg_3" stroke="null">
+    <path class="st0" d="m29.549969,15.049997c0,8.081165 -6.518807,14.599972 -14.599972,14.599972s-14.599972,-6.518807 -14.599972,-14.599972c0,-8.081165 6.518807,-14.599972 14.599972,-14.599972s14.599972,6.518807 14.599972,14.599972z" id="svg_4" stroke="null"/>
+   </g>
+   <g id="svg_5" stroke="null">
+    <rect x="20.121942" y="11.602033" class="st12" width="2.801471" height="1.077489" id="svg_6" stroke="null"/>
+   </g>
+   <g id="svg_7" stroke="null">
+    <rect x="6.545585" y="11.602033" class="st12" width="8.889282" height="1.077489" id="svg_8" stroke="null"/>
+   </g>
+   <g id="svg_9" stroke="null">
+    <rect x="15.758113" y="18.174714" class="st12" width="7.111425" height="1.077489" id="svg_10" stroke="null"/>
+   </g>
+   <g id="svg_11" stroke="null">
+    <rect x="6.545585" y="18.174714" class="st12" width="3.825085" height="1.077489" id="svg_12" stroke="null"/>
+   </g>
+   <g id="svg_13" stroke="null">
+    <path class="st12" d="m17.643718,15.157746c-1.670107,0 -3.070843,-1.346861 -3.070843,-3.070843s1.346861,-3.070843 3.070843,-3.070843c1.670107,0 3.070843,1.346861 3.070843,3.070843s-1.346861,3.070843 -3.070843,3.070843zm0,-5.010322c-1.077489,0 -1.993354,0.861991 -1.993354,1.993354s0.861991,1.993354 1.993354,1.993354c1.077489,0 1.993354,-0.861991 1.993354,-1.993354s-0.861991,-1.993354 -1.993354,-1.993354z" id="svg_14" stroke="null"/>
+   </g>
+   <g id="svg_15" stroke="null">
+    <path class="st12" d="m13.118266,21.784301c-1.670107,0 -3.070843,-1.346861 -3.070843,-3.070843c0,-1.670107 1.346861,-3.070843 3.070843,-3.070843c1.670107,0 3.070843,1.346861 3.070843,3.070843c0,1.723982 -1.400735,3.070843 -3.070843,3.070843zm0,-5.010322c-1.077489,0 -1.993354,0.861991 -1.993354,1.993354s0.861991,1.993354 1.993354,1.993354c1.077489,0 1.993354,-0.861991 1.993354,-1.993354s-0.915865,-1.993354 -1.993354,-1.993354z" id="svg_16" stroke="null"/>
+   </g>
+  </g>
+ </g>
+</svg>

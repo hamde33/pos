@@ -1,0 +1,56 @@
+.steps >div{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.steps .main_txt{
+    display: flex;
+    align-items: center;
+}
+
+.steps .round_num{
+    background: #14c3a5;
+    color: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "ar-lt";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps .text_cont{
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+}
+
+.steps .step_cont + .step_cont:after{
+    content: "\f104";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 53px;
+    color: #14c3a5;
+    
+}
+
+@media (max-width: 767px){
+    .steps .text_cont {
+        flex-direction: column;
+    }
+    .steps .step_cont + .step_cont:after{
+        display: none;
+    }
+}

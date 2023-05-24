@@ -1,0 +1,423 @@
+﻿body {
+    direction: rtl;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    padding-left: 25px;
+}
+
+.bootstrap-select > select {
+    right: 50%;
+}
+
+    .bootstrap-select > select.mobile-device {
+        right: 0;
+    }
+
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"] {
+    margin-right: 0;
+}
+
+    .bootstrap-select.btn-group.dropdown-menu-right, .bootstrap-select.btn-group[class*="col-"].dropdown-menu-right, .row .bootstrap-select.btn-group[class*="col-"].dropdown-menu-right {
+        float: left;
+    }
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    text-align: right;
+    padding-right: 10px
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    left: 16px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a.opt {
+    padding-right: 2.25em;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li small {
+    padding-right: 0.5em;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    left: 15px;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text {
+    margin-left: 34px;
+}
+
+.bootstrap-select.show-menu-arrow .dropdown-toggle:before {
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    right: 9px;
+}
+
+.bootstrap-select.show-menu-arrow .dropdown-toggle:after {
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    right: 10px;
+}
+
+.bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:before {
+    left: 12px;
+    right: auto;
+}
+
+.bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:after {
+    left: 13px;
+    right: auto;
+}
+
+.bs-donebutton {
+    float: right;
+}
+
+.select-with-transition {
+    padding-right: 0 !important;
+}
+
+.checkbox .checkbox-material {
+    padding-left: 5px;
+    padding-right: 0 !important;
+}
+
+.checkbox label {
+    padding-right: 0 !important;
+    padding-left: 10px;
+}
+
+.dropdown-menu {
+    text-align: right;
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+    .ps-container > .ps-scrollbar-y-rail {
+        left: 0;
+    }
+
+        .ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+            left: 2px;
+        }
+
+    .btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm .btn.btn-fab.material-icons, .navbar .navbar-nav > li > a.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm.navbar .navbar-nav > li > a.btn.btn-fab.material-icons {
+        right: -3.5px;
+    }
+
+    .btn.btn-fab i.material-icons, .navbar .navbar-nav > li > a.btn.btn-fab i.material-icons {
+        right: 50%;
+    }
+
+    .btn .caret {
+        margin-right: -2px;
+    }
+
+    .navbar .navbar-nav > li > a:not(.btn) .material-icons {
+        margin-left: 3px;
+    }
+
+    .btn-group .dropdown-menu, .btn-group-vertical .dropdown-menu {
+        border-radius: 0 0 3px 3px;
+    }
+
+    .loader {
+        right: 0;
+        left: 0;
+    }
+
+    .circular {
+        right: 0;
+        left: 0;
+    }
+
+    .page-header {
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .form-group {
+        margin: 20px 0 0 0;
+    }
+
+    label.control-label {
+        margin: 16px 0 0 0;
+    }
+
+    .form-group label.control-label {
+        margin: 16px 0 0 0;
+    }
+
+    .form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
+        right: 0;
+    }
+
+    .form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+        right: 0;
+    }
+
+    .form-group.form-group-sm {
+        margin: 20px 0 0 0;
+    }
+
+        .form-group.form-group-sm label.control-label {
+            margin: 16px 0 0 0;
+        }
+
+        .form-group.form-group-sm.label-static label.control-label, .form-group.form-group-sm.label-floating.is-focused label.control-label, .form-group.form-group-sm.label-floating:not(.is-empty) label.control-label {
+            right: 0;
+        }
+
+        .form-group.form-group-sm.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+            right: 0;
+        }
+
+    .form-group.form-group-lg {
+        margin: 20px 0 0 0;
+    }
+
+        .form-group.form-group-lg label.control-label {
+            margin: 16px 0 0 0;
+        }
+
+        .form-group.form-group-lg.label-static label.control-label, .form-group.form-group-lg.label-floating.is-focused label.control-label, .form-group.form-group-lg.label-floating:not(.is-empty) label.control-label {
+            right: 0;
+        }
+
+        .form-group.form-group-lg.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+            right: 0;
+        }
+
+    .input-group-btn .btn {
+        margin: 0 0 7px 0;
+    }
+
+    .form-group.form-group-sm .input-group-btn .btn {
+        margin: 0 0 3px 0;
+    }
+
+    .form-group.form-group-lg .input-group-btn .btn {
+        margin: 0 0 9px 0;
+    }
+
+    .form-group input[type=file] {
+        left: 0;
+        right: 0;
+    }
+
+    .star {
+        padding-right: 3px;
+    }
+
+    .card .form-horizontal .label-on-left {
+        padding: 28px 0 0 5px;
+        text-align: left;
+    }
+
+    .card .form-horizontal .label-on-right {
+        padding: 28px 5px 0 0;
+        text-align: right;
+    }
+
+    .form-horizontal .form-group {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .form-horizontal .checkbox-inline {
+        padding-right: 0;
+    }
+
+    .form-horizontal .radio label {
+        padding-right: 28px;
+    }
+
+        .form-horizontal .radio label span {
+            right: 2px;
+        }
+
+    .form-newsletter .input-group, .form-newsletter .form-group {
+        float: right;
+        margin-left: 2%;
+    }
+
+    .form-newsletter .btn {
+        float: right;
+    }
+
+    .checkbox label {
+        padding-right: 0;
+    }
+
+    .checkbox input[type=checkbox] {
+        right: 0;
+    }
+
+    .checkbox .checkbox-material {
+        padding-left: 5px;
+    }
+
+        .checkbox .checkbox-material:before {
+            right: 0;
+        }
+
+        .checkbox .checkbox-material .check:before {
+            margin-right: 7px;
+        }
+
+    .full-page:after, .full-page:before {
+        right: 0;
+    }
+
+    .full-page .full-page-background {
+        right: 0;
+    }
+
+    .lock-page .card-profile {
+        right: 0;
+        left: 0;
+    }
+
+        .lock-page .card-profile .form-group {
+            text-align: right;
+        }
+
+    .register-page .card-signup .checkbox label {
+        margin-right: 17px;
+    }
+
+    .register-page .card-signup .checkbox .checkbox-material {
+        padding-left: 20px;
+    }
+
+    .register-page .card-signup .info-horizontal .icon {
+        float: right;
+        margin-left: 10px;
+    }
+
+    .register-page .card-signup .form-group {
+        margin: 27px 7px 0 0;
+    }
+
+    .navbar .navbar-minimize {
+        float: right;
+        padding: 3px 15px 0 0;
+    }
+
+    .navbar .notification {
+        left: 10px;
+    }
+
+    .navbar .navbar-nav > li > a.btn:not(.btn-just-icon) .fa {
+        margin-left: 4px;
+    }
+
+    .navbar .alert {
+        right: 0;
+        left: 0;
+    }
+
+    .dropdown-menu.dropdown-with-icons li > a {
+        padding: 12px 12px 12px 20px;
+    }
+
+        .dropdown-menu.dropdown-with-icons li > a .material-icons {
+            margin-left: 12px;
+        }
+
+    .card .card-image {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+        .card .card-image .card-title {
+            right: 15px;
+        }
+
+    .card .card-actions {
+        right: 17px;
+        left: 17px;
+    }
+
+        .card .card-actions .btn {
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+
+    .card .card-header.card-header-icon {
+        float: right;
+    }
+
+    .card .card-header.card-header-tabs .nav-tabs-title {
+        float: right;
+        padding: 10px 0 10px 10px;
+    }
+
+    .card .social-line .btn {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .card .category-social .fa {
+        margin-left: 5px;
+    }
+
+    .card .author .avatar {
+        margin-left: 5px;
+    }
+
+    .card-stats .card-header {
+        float: right;
+    }
+
+    .card-stats .card-content {
+        text-align: left;
+    }
+
+    .card-plain .card-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .card-plain .card-header-icon {
+        margin-left: 15px;
+    }
+
+    .card-plain .content {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .card-profile .btn-just-icon.btn-raised, .card-testimonial .btn-just-icon.btn-raised {
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+
+    .card-pricing.card-background ul li, .card-pricing [class*="content-"] ul li {
+        border-color: rgba(255, 0, 255, 255);
+    }
+
+    .card-background:after {
+        right: 0;
+    }
+
+    .card-login .card-content {
+        padding: 0px 10px 0px 30px;
+    }
+
+    .card-login .checkbox label {
+        margin-right: 17px;
+    }
+
+    .card-login .checkbox .checkbox-material {
+        padding-left: 12px;
+    }
+
+    .card-login .social-line .btn {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    input, .form-control {
+        direction: rtl !important;
+    }
+}

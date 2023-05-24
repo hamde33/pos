@@ -1,0 +1,252 @@
+/*                rtl          */
+/* bk btn in forms */
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+/* general */
+body{
+   font-family: 'Arbfont','Changa', sans-serif;
+    /* font-size: 1.3rem!important; */
+}
+
+
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.has-sub>a:not(.mm-next):after{
+    content: "\f104" !important;
+}
+
+/* .nav-menu-main i::before{
+    content: "\f105" !important;
+
+} */
+
+.desktop-menu .nav-menu-main:not(.is-active) i::before{
+    content: "\f104" !important;
+
+}
+
+.breadcrumb, .header-navbar,.navigation, .navigation .navigation-header{
+    font-family: 'Arbfont','Changa', sans-serif;
+}
+.breadcrumb {
+    font-size: 1rem;
+}
+.divBack{
+    text-align:left;
+}
+.headTitle{
+    text-align:right;
+}
+.headBtns{
+    text-align:left;
+}
+.additionalBar{
+    text-align:left;
+}
+
+.headBtns,#categoriesSecion .headBtns,#unitsSecion .headBtns{
+    text-align: left;
+}
+.filterbtn,#categoriesSecion .filterbtn,#unitsSecion .filterbtn{
+    text-align:right;
+}
+ .additionalBar,#categoriesSecion .additionalBar,#unitsSecion .additionalBar{
+    text-align:left;
+}
+.custom-file-label{
+    text-align: left;
+}
+.selectMultiple > div span {
+    right: 12px;
+}
+
+.selectMultiple > div .arrow {
+    left: 1px;
+}
+.selectMultiple > div a i {
+    left: 0;
+}
+.selectMultiple > div a {
+    padding: 0 6px 6px 24px;
+}
+/* direction */
+.arrow-dir{
+    display: inline-block;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+span.numbers-ar{
+    unicode-bidi: embed;
+}
+/* accounting */
+.Apply-acc-btn-col{
+    text-align: left;
+}
+/* buttons */
+.bkBtn{
+	text-align:left;
+}
+       /* div contain cancel btn */
+.PasswordContainer .cancel{
+    text-align: left;
+}
+/* serach in tables in arabic version */
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+/* pagination in tables in arabic version */
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+/* accounting settings */
+.d-flex-align{
+    justify-content: left;
+}
+/*
+div.en  {order:2;  display: table-header-group;}
+div.ar {order: 1; display: table-header-group;}
+*/
+div.en  {order:2;}
+div.ar {order: 1;}
+
+
+.right-checkbox .custom-control-indicator{
+    left:0!important;
+    right:auto!important;
+}
+.m-46
+{
+    margin-right: 47%;
+}
+.m-74
+{
+    margin-right: 74%;
+}
+
+/*                      Data table                      */
+/* plus sign in table position */
+.content-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before,
+ .content-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before{
+    right: 4px;
+ }
+ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child {
+    padding-right: 30px;
+}
+/*               Accounting - Module                */
+/* Account Hierarchy */
+ul.tree{
+    padding-right: 0;
+}
+/*          toolsbar(header of table(settings-print-x)        */
+.toolsbar .content-direction{
+    text-align:left;
+}
+/* make menu open to right */
+.toolsbar .dropdown-menu{
+    left:0;
+    right:auto;
+}
+.dropdown-menu.arrow:after, .dropdown-menu.arrow:before{
+    left:10px;
+    right:auto;
+}
+/* reports */
+.report-features{
+    text-align:left;
+}
+/* fontawesome icons */
+.btni i{
+    line-height: 1.3;
+}
+/*      Media       */
+@media(max-width:1080px){
+    /* tabs-links in custom fields */
+    .nav.nav-tabs.nav-linetriangle .nav-item{
+        float:right;
+    }
+}
+@media(max-width:1920px) and (min-width:768px){
+    .toolsbar .content-direction{
+        margin-right:50%;
+    /* side bar responsive (collapsed) */
+        margin-left:1rem;
+    }
+}
+@media(max-width:1080px){
+    .btn-custom {
+        max-width: 7rem;
+        font-size: 13px;
+    }
+}
+@media(max-width:812px){
+    .btn-custom{
+        max-width: 7rem;
+    }
+}
+@media (max-width: 767px){
+    #navbar-mobile.navbar-toggleable-sm .navbar-nav .dropdown-menu {
+        right: auto;
+        overflow-y: hidden;
+    }
+        /* datatable search input*/
+    div.dataTables_wrapper div.dataTables_length,
+     div.dataTables_wrapper div.dataTables_filter,
+     div.dataTables_wrapper div.dataTables_info,
+     div.dataTables_wrapper div.dataTables_paginate {
+        text-align: center;
+    }
+}
+@media(max-width:414px){
+    /* datepicker arrows in ar version for mobiles */
+    .fa-chevron-left:before {
+        content: "\f054";
+    }
+    .fa-chevron-right:before {
+        content: "\f053";
+    }
+}
+
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content {
+    right: 70px;
+}
+
+ul.menu-content li a i {
+    margin-left: 1rem;
+}
+
+@media (max-width: 992px){
+    .headBtns button.center-icon-when-small {
+        font-size: 0px;
+        text-indent: -13px!important;
+    }
+
+    button.center-add-icon{
+        text-indent: 39px !important;
+        font-size: 0px;
+        padding-left: 90px;
+    }
+
+    button.center-add-product-icon{
+        text-indent: -4px;
+    }
+
+    .modal.small-screen-height{
+        height: 620px;
+    }
+
+    .small-screen-profle-style{
+        margin-left: 0px !important;
+    }
+}
+
+.img_wrp {
+    display: inline-block;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+
+}

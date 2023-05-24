@@ -1,0 +1,8 @@
+/*                   rtl            */
+#productListSection h3,#categoriesSecion h3,#unitsSecion h3{
+    text-align: right;
+}
+
+/* #productSection .bkBtnAlign{
+    text-align: left;
+} */

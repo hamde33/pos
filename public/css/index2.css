@@ -1,0 +1,192 @@
+.favorite-form {
+    /* top: 0;
+    left: 63%;
+    position: absolute;
+    transform: translate(-50%, -50%); */
+}
+.favorite-form button{
+
+    border-radius: 50%;
+    padding: 0.25rem;
+    line-height: 0.5;
+}
+#reports .widget .favorite-form button i{
+    font-size: 14px !important;
+    width: auto;
+}
+
+#reports .widget h3{
+    font-size: 1.2rem;
+}
+
+#reports .widget .report-icon {
+    color: var(--background-color);
+}
+
+#reports .widget .report-img{
+    margin-top: -20px;
+}
+ 
+#reports .widget hr{
+    margin-left: 20%;
+}
+
+#reports .widget .btn-white {
+    border: 1.5px solid#CBD8F0 !important;
+}
+#reports .widget .btn-white.border-warning,  #reports .widget .btn-white:hover{
+    border-color: #FFA87D !important;
+}
+
+
+#reports .widget .btn-white:hover{
+    background-color: #FFA87D!important;
+}
+
+#reports .widget .btn-white:hover i{
+    color:white !important;
+}
+#reports .widget .report-icon a{
+    color: #CBD8F0;
+    
+}
+
+#reports .widget .report-actions a:hover i{
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+
+#reports .widget .report-actions a:hover i:before{
+    color:white;    
+}
+
+#reports .widget .report-actions a{
+    border-radius: 50%;
+    line-height: 0.5;
+    width: 23px;
+    color: darkgrey;
+    margin: 0 0.5rem;
+}
+#reports .widget .report-actions a>i{
+    font-size: 23px !important;
+    color: #CBD8F0;
+}
+
+#reports .widget hr + hr{
+    margin-left: 40%;
+    border-color: rgba(0,0,0,.05);
+}
+
+.widget .btn-white {
+    border: 1px solid#CBD8F0 !important;
+}
+
+.widget .p-r{
+    position:relative
+}
+
+#reports .widget .report-actions{
+    justify-content: flex-end;
+}
+.widget i.fa.fa-star-o,
+.widget i.fa.fa-star{
+    font-size: 30px!important;
+    width: 2rem;
+}
+.widget  .btn-white{
+    border:1px solid #ffaf88;
+}
+
+@media(max-width:736px){
+    .divBack.accs{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .headTitle{
+        text-align: center;
+    }
+}
+
+
+/* summery report */
+
+.summ_report .card-body .report-features + section{
+    text-align: initial;
+}
+
+.summ_report .card-body .report-features + section >h2,.summ_report .card-body .report-features + div >h2{ 
+    font-size: 1rem;
+    color: #2145ade6!important;
+}
+.summ_report .card-body .report-features + section >h4 + h4,.summ_report .card-body .report-features + div >h4 + h4{
+    padding: 0.5rem 1rem;
+    background-color:  #C3EDE7 ;
+    color: var(--background-color)  ;
+    border-radius: 1.5rem;
+    font-size: .7rem!important;
+    display: inline-block;
+}
+
+
+.summ_report table>tbody>tr>td, .summ_report table>tbody>tr>th {
+    border: 0;
+    padding-bottom: 0;
+    font-family: "ArbFont-bold";
+}
+
+.summ_report table>thead>tr>th{
+    border-bottom-width: 1px;
+    border-top: 0;
+    font-size: 13px;
+    font-family: "ArbFont-bold";
+}
+
+.summ_report table.arbFont-md >tbody>tr>td{
+    font-family: "ArbFont-md";
+}
+
+.run_report_btn,
+.run_report_btn.btn-info.focus,
+.run_report_btn.btn-info:focus,
+.run_report_btn.btn-info:hover {
+    border: none;background-color: transparent !important;
+}
+.run_report_icon{
+    width: 20px;
+    padding: 2px;
+    margin-bottom: 0!important;
+    min-width: 25px;
+    overflow: hidden;
+    text-indent: -53px;
+    background: #cbdbf3 !important;
+    color: #cbdbf3 !important;
+    border-radius: 50%;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 4px;
+    right: 18px;
+}
+
+.run_report_icon_rtl{
+    width: 20px;
+    padding: 2px;
+    margin-bottom: 0!important;
+    min-width: 25px;
+    overflow: hidden;
+    text-indent: -53px;
+    background: #cbdbf3 !important;
+    color: #cbdbf3 !important;
+    border-radius: 50%;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 4px;
+    left: 18px;
+}

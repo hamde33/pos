@@ -1,0 +1,6 @@
+/* make logo small as default in small devices */
+@media(max-width:942px){
+    body.vertical-layout.vertical-menu.menu-collapsed .navbar .navbar-header .navbar-brand img.brand-logo{
+        width:2.5rem;
+    }
+}

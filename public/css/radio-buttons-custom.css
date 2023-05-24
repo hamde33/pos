@@ -1,0 +1,20 @@
+.radio-img>input {
+    display: none;
+}
+
+.radio-img>img {
+    cursor: pointer;
+    border: 2px solid transparent;
+    width: 100%;
+}
+
+.radio-img>input:checked+img {
+    border: 2px solid #404E67;
+}
+/* media */
+@media(max-width:736px)and (min-width:568px) {
+    /* imgs responsive */
+    .radio-img>img {
+        width: 65%;
+    }
+}

@@ -1,0 +1,6 @@
+/* dashboard titles responsive */
+@media(max-width:600px){
+    .dashboard-title .dashboard-text{
+        text-align: center!important;
+    }
+}

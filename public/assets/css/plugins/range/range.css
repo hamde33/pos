@@ -1,0 +1,188 @@
+.range-slider {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.range-slider label {
+    /* color: #fff; */
+    font-size: 1rem;
+}
+
+.range-slider .number-group {
+    /* flex: 1 0 auto; */
+    text-align: right;
+    height: 30px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+}
+
+.range-slider .number-group .number-input {
+    width: 36px;
+    height: 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #22C2DC;
+    /* background-color: #404e67; */
+    border: 1px solid;
+}
+
+.range-slider .number-group .number-input:first-of-type {
+    margin-right: 7px;
+}
+
+.range-slider .number-group .number-input:last-of-type {
+    margin-left: 7px;
+}
+
+.range-slider .number-group .number-input::-webkit-outer-spin-button,
+.range-slider .number-group .number-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.range-slider .number-group .number-input:invalid,
+.range-slider .number-group .number-input:out-of-range {
+    border: 2px solid red;
+}
+
+.range-slider .range-group {
+    position: relative;
+    /* flex: 0 0 100%; */
+    width:50%;
+    /* height: 47px; */
+    height: 5px;
+}
+
+.range-slider .range-group .range-input {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    -webkit-appearance: none;
+    width: 100%;
+    border-bottom: 0;
+}
+
+.range-slider .range-group .range-input:focus {
+    outline: 0;
+}
+
+.range-slider .range-group .range-input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    -webkit-animation: .2s;
+    animation: .2s;
+    background: #22C2DC;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+.range-slider .range-group .range-input::-webkit-slider-thumb {
+    z-index: 2;
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #22C2DC;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+
+.range-slider .range-group .range-input::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    animation: .2s;
+    background: #22C2DC;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+.range-slider .range-group .range-input::-moz-range-thumb {
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 0px 0px #000;
+    border: 1px solid #22C2DC;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #3FAFFA;
+    cursor: pointer;
+}
+
+.range-slider .range-group .range-input::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animation: .2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.range-slider .range-group .range-input::-ms-fill-lower,
+.range-slider .range-group .range-input::-ms-fill-upper {
+    background: #22C2DC;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+.range-slider .range-group .range-input::-ms-thumb {
+    z-index: 2;
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #3FAFFA;
+    cursor: pointer;
+}
+
+
+/*
+.range-slider,
+.filter {
+    margin: 0 auto 30px;
+    max-width: 50%;
+} */
+
+.filterbtn,.filterdropdown{
+    font-size:1.3rem;
+}
+/* .filterbtn{
+    width:90%;
+} */
+.filterdropdown{
+    width:10%;
+}
+.filterbtn ,.add-btn{
+    height: 3rem;
+}
+@media(max-width:736px){
+    /* .headBtns{
+        text-align: center!important;
+    } */
+    .headBtns .btn-group{
+        /* width: 70%; */
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .headBtns .btn-group.product-list{
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 400px){
+    /* .filterbtn{
+        width:80%!important;
+    } */
+    .dilterawesome{
+        width:20%!important;
+    }
+}

@@ -1,0 +1,27 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+ <style>.st0{fill:#FFFFFF;}
+.st12{fill:#17B7A0;}
+.st104{fill:#FF7300;}
+.st474{opacity:0.6}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="32" width="32" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_1">
+   <g stroke="null" id="svg_2" class="st474">
+    <path stroke="null" id="svg_3" d="m28.833334,15.466667c0,7.98893 -6.444404,14.433334 -14.433334,14.433334c-7.98893,0 -14.433334,-6.444404 -14.433334,-14.433334c0,-7.98893 6.444404,-14.433334 14.433334,-14.433334c7.98893,0 14.433334,6.444404 14.433334,14.433334z" class="st0"/>
+   </g>
+   <g stroke="null" id="svg_4">
+    <g stroke="null" id="svg_5">
+     <rect stroke="null" id="svg_6" height="1.065191" width="11.557319" class="st104" y="14.934071" x="8.647971"/>
+    </g>
+    <g stroke="null" id="svg_7">
+     <rect stroke="null" id="svg_8" height="11.557319" width="1.065191" class="st104" y="9.661377" x="13.867405"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

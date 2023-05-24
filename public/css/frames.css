@@ -1,0 +1,8 @@
+.frame-gray{
+    border: 2px solid rgb(204, 214, 230);
+    border-radius: 0.25rem;
+}
+
+.border-bottom-gray{
+    border-bottom: 2px solid rgb(204, 214, 230);
+}

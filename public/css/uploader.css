@@ -1,0 +1,32 @@
+.dummy_uploader{
+    position: absolute;
+}
+.dummy_uploader >div{
+    position: absolute;
+    padding: 0 15px;
+}
+
+.dummy_uploader .uploader_txt,.dummy_uploader .choose_txt{
+    border-radius: 5px;
+    padding: 3px 14px;
+    font-size: 10px;
+    /*margin: 0 10px;*/
+}
+
+.dummy_uploader .uploader_txt{
+    color: #17b7a0;
+    background-color: var(--background-color)40;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dummy_uploader .choose_txt{
+    color: white;
+    background: #14c3a5;
+}
+
+.dummy_uploader input[type="file"]{
+    opacity: 0;
+    z-index: 2;
+}

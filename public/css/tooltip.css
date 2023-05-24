@@ -1,0 +1,57 @@
+.icon_tooltip label{
+    line-height: inherit;
+}
+.icon_tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.icon_tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+.download_icon_tooltip .tooltiptext {
+    background-color: #c5d2f7 !important;
+}
+.edit_icon_tooltip .tooltiptext{
+    background-color: #ffe1c1 !important;
+}
+.upload_icon_tooltip .tooltiptext{
+    background-color: #bcf4ea !important;
+}
+
+.icon_tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+}
+.download_icon_tooltip .tooltiptext::after{
+    border-color: transparent #c5d2f7 transparent transparent;
+}
+.edit_icon_tooltip .tooltiptext::after{
+    border-color: transparent #ffe1c1 transparent transparent;
+}
+.upload_icon_tooltip .tooltiptext::after{
+    border-color: transparent #bcf4ea transparent transparent;
+}
+.icon_tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dashboard_icon{
+    border-radius: 50%;
+    color: darkgrey;
+    margin: 0 0.3rem;
+}

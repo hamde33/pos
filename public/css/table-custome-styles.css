@@ -1,0 +1,26 @@
+
+ table.dataTable tr.child ul{
+     width:100%;
+ }
+ table.dataTable{
+      /* override plugin to take size of screen */
+     width:100%!important;
+ }
+ table.dataTable tr.child ul li{
+    white-space: normal;
+    word-break: break-word;
+ }
+ table.table-bordered.dataTable tbody td:nth-of-type(2){
+    /* white-space: normal;
+    word-break: break-word; */
+    /* width: 20%; */
+ }
+ table.table-bordered.dataTable tbody tr:first-of-type td:first-of-type{
+    white-space: nowrap;
+ }
+ /* .table td, .table th{
+    padding: .75rem 1rem;
+ } */
+ /* .sorting_1{
+    white-space: nowrap;
+ } */
